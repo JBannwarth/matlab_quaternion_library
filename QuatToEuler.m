@@ -20,7 +20,7 @@ function [ varargout ] = QuatToEuler( quat )
 %       2. Pitch rotation around the new body y-axis
 %       3. Roll rotation around the new body x-axis
 %   The quaternions used are Hamilton quaternions in the form
-%       q = [ cos(alpha)^2; sin(alpha)^2 * ax ],
+%       q = [ cos(alpha/2); sin(alpha/2) * ax ],
 %   where ax = [ax1; ax2; ax3] represents the axis of rotation and alpha
 %   the rotation angle.
 %
