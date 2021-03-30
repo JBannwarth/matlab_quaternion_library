@@ -36,5 +36,5 @@ function quat = VecsToQuat( src, dst )
     quat(2) = cr(1);
     quat(3) = cr(2);
     quat(4) = cr(3);
-    quat = MulticopterAttitudeControl.normalize( quat );
+    quat = quat ./ norm(quat);
 end
