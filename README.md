@@ -4,6 +4,8 @@ Simple library implementing quaternion functions.
 
 Functions based on, or inspired by those used in the C++ [PX4-Matrix](https://github.com/PX4/PX4-Matrix/blob/master/matrix/Quaternion.hpp) library.
 
+`QuaternionLibrary.slx` implements the same functions as Simulink blocks.
+
 Jérémie X. J. Bannwarth
 
 ## Quaternions
